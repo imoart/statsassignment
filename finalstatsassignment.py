@@ -286,12 +286,12 @@ plt.show()
 
 # Plotting recent 20 years for agricultural land
 plt.figure(figsize=(10, 6))
-plt.plot(years5, rich_recent_20_years_ma_trans[286], label='China')
-plt.plot(years6, upper_middle_income_recent_20_years_ma_trans[1637],
+plt.plot(years, rich_recent_20_years_ma_trans[286], label='China')
+plt.plot(years2, upper_middle_income_recent_20_years_ma_trans[1637],
          label='Thailand')
-plt.plot(years7, lower_middle_income_recent_20_years_ma_trans[790],
+plt.plot(years3, lower_middle_income_recent_20_years_ma_trans[790],
          label='Iran')
-plt.plot(years8, poor_recent_20_years_ma_trans[1446], label='Sudan')
+plt.plot(years4, poor_recent_20_years_ma_trans[1446], label='Sudan')
 
 plt.xlabel('Year')
 plt.ylabel('Value')
@@ -322,12 +322,12 @@ plt.show()
 
 # Plotting Recent 20 years Forest Area
 plt.figure(figsize=(10, 6))
-plt.plot(years5, rich_recent_20_years_ma_trans[285], label='China')
-plt.plot(years6, upper_middle_income_recent_20_years_ma_trans[1636],
+plt.plot(years, rich_recent_20_years_ma_trans[285], label='China')
+plt.plot(years2, upper_middle_income_recent_20_years_ma_trans[1636],
          label='Thailand')
-plt.plot(years7, lower_middle_income_recent_20_years_ma_trans[789],
+plt.plot(years3, lower_middle_income_recent_20_years_ma_trans[789],
          label='Iran')
-plt.plot(years8, poor_recent_20_years_ma_trans[1447], label='Sudan')
+plt.plot(years4, poor_recent_20_years_ma_trans[1447], label='Sudan')
 
 plt.xlabel('Year')
 plt.ylabel('Value')
